@@ -111,8 +111,7 @@
       "static/css/_app-client_app_globals_css.css"
     ],
     "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/page": [
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_page_tsx_import_Inter_arguments-2f8da4.css",
-      "static/css/_app-client_app_page_module_css.css"
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_page_tsx_import_Inter_arguments-2f8da4.css"
     ]
   },
   "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/next/dist/client/components/app-router.js": {
@@ -329,15 +328,6 @@
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_globals_css.css"
-      ]
-    }
-  },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/page.module.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_page_module_css.css"
       ]
     }
   },
