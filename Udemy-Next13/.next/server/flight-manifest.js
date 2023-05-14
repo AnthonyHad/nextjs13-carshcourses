@@ -1,8 +1,8 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./app/page.tsx": {
+    "(app-client)/./app/components/Header.tsx": {
       "": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./app/components/Header.tsx",
         "name": "",
         "chunks": [
           "app/page:app/page"
@@ -10,7 +10,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./app/components/Header.tsx",
         "name": "*",
         "chunks": [
           "app/page:app/page"
@@ -18,7 +18,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./app/components/Header.tsx",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -161,11 +161,14 @@ self.__RSC_MANIFEST={
   "__entry_css_files__": {
     "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/layout": [
       "static/css/_app-client_app_globals_css.css"
+    ],
+    "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/page": [
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_page_tsx_import_Inter_arguments-2f8da4.css"
     ]
   },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/page.tsx": {
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/Header.tsx": {
     "": {
-      "id": "(app-client)/./app/page.tsx",
+      "id": "(app-client)/./app/components/Header.tsx",
       "name": "",
       "chunks": [
         "app/page:app/page"
@@ -173,7 +176,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/page.tsx",
+      "id": "(app-client)/./app/components/Header.tsx",
       "name": "*",
       "chunks": [
         "app/page:app/page"
@@ -181,7 +184,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/page.tsx",
+      "id": "(app-client)/./app/components/Header.tsx",
       "name": "default",
       "chunks": [
         "app/page:app/page"
@@ -455,6 +458,15 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_globals_css.css"
+      ]
+    }
+  },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/@next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_page_tsx_import_Inter_arguments-2f8da4.css"
       ]
     }
   }
