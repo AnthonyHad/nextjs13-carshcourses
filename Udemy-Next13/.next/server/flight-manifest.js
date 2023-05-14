@@ -155,15 +155,38 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx": {
+      "": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "default",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/layout": [
       "static/css/_app-client_app_globals_css.css"
-    ],
-    "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/page": [
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_page_tsx_import_Inter_arguments-2f8da4.css"
     ]
   },
   "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/SearchBar.tsx": {
@@ -452,21 +475,38 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/restaurant/[slug]/components/ReservationCard.tsx": {
+    "": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "default",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    }
+  },
   "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/globals.css": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_globals_css.css"
-      ]
-    }
-  },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/@next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_page_tsx_import_Inter_arguments-2f8da4.css"
       ]
     }
   }
