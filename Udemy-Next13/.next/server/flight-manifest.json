@@ -1,8 +1,8 @@
 {
   "__ssr_module_mapping__": {
-    "(app-client)/./app/components/Header.tsx": {
+    "(app-client)/./app/components/SearchBar.tsx": {
       "": {
-        "id": "(sc_client)/./app/components/Header.tsx",
+        "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "",
         "chunks": [
           "app/page:app/page"
@@ -10,7 +10,7 @@
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/components/Header.tsx",
+        "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "*",
         "chunks": [
           "app/page:app/page"
@@ -18,7 +18,7 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/components/Header.tsx",
+        "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -166,9 +166,9 @@
       "static/css/_app-client_node_modules_next_font_google_target_css_path_app_page_tsx_import_Inter_arguments-2f8da4.css"
     ]
   },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/Header.tsx": {
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/SearchBar.tsx": {
     "": {
-      "id": "(app-client)/./app/components/Header.tsx",
+      "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "",
       "chunks": [
         "app/page:app/page"
@@ -176,7 +176,7 @@
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/components/Header.tsx",
+      "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "*",
       "chunks": [
         "app/page:app/page"
@@ -184,7 +184,7 @@
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/components/Header.tsx",
+      "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "default",
       "chunks": [
         "app/page:app/page"
