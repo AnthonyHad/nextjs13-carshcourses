@@ -30,15 +30,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/restaurant/[slug]/head.js"
     ],
-    "/search/head": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/search/head.js"
-    ],
     "/search/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/search/page.js"
+    ],
+    "/search/head": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/search/head.js"
     ]
   }
 }
