@@ -1,5 +1,6 @@
 import { Location, Cuisine, PRICE } from '@prisma/client';
 import Link from 'next/link';
+
 const SearchSideBar = ({
   locations,
   cuisines,
