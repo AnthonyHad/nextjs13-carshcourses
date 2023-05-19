@@ -1,37 +1,11 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/components/SearchBar.tsx": {
       "": {
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "",
         "chunks": [
-          "app/page:app/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -39,7 +13,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "*",
         "chunks": [
-          "app/page:app/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -47,7 +21,33 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "default",
         "chunks": [
-          "app/page:app/page"
+          "app/search/page:app/search/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/search/page:app/search/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/search/page:app/search/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/search/page:app/search/page"
         ],
         "async": false
       }
@@ -155,6 +155,32 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx": {
+      "": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "default",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -163,12 +189,38 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_app_globals_css.css"
     ]
   },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/SearchBar.tsx": {
+    "": {
+      "id": "(app-client)/./app/components/SearchBar.tsx",
+      "name": "",
+      "chunks": [
+        "app/search/page:app/search/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/components/SearchBar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/search/page:app/search/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/components/SearchBar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/search/page:app/search/page"
+      ],
+      "async": false
+    }
+  },
   "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/next/dist/client/link.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -176,7 +228,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -184,7 +236,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/page:app/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     }
@@ -194,7 +246,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -202,7 +254,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -210,33 +262,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/SearchBar.tsx": {
-    "": {
-      "id": "(app-client)/./app/components/SearchBar.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/SearchBar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/SearchBar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     }
@@ -445,6 +471,32 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/restaurant/[slug]/components/ReservationCard.tsx": {
+    "": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "default",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     }
