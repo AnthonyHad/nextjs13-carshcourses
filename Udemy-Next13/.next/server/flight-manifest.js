@@ -203,9 +203,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/components/LoginModal.tsx": {
+    "(app-client)/./app/components/AuthModal.tsx": {
       "": {
-        "id": "(sc_client)/./app/components/LoginModal.tsx",
+        "id": "(sc_client)/./app/components/AuthModal.tsx",
         "name": "",
         "chunks": [
           "app/layout:app/layout"
@@ -213,7 +213,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/components/LoginModal.tsx",
+        "id": "(sc_client)/./app/components/AuthModal.tsx",
         "name": "*",
         "chunks": [
           "app/layout:app/layout"
@@ -221,7 +221,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/components/LoginModal.tsx",
+        "id": "(sc_client)/./app/components/AuthModal.tsx",
         "name": "default",
         "chunks": [
           "app/layout:app/layout"
@@ -1118,9 +1118,9 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/LoginModal.tsx": {
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/AuthModal.tsx": {
     "": {
-      "id": "(app-client)/./app/components/LoginModal.tsx",
+      "id": "(app-client)/./app/components/AuthModal.tsx",
       "name": "",
       "chunks": [
         "app/layout:app/layout"
@@ -1128,7 +1128,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/components/LoginModal.tsx",
+      "id": "(app-client)/./app/components/AuthModal.tsx",
       "name": "*",
       "chunks": [
         "app/layout:app/layout"
@@ -1136,7 +1136,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/components/LoginModal.tsx",
+      "id": "(app-client)/./app/components/AuthModal.tsx",
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
