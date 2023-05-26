@@ -47,32 +47,6 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/empty-star.png": {
       "": {
         "id": "(sc_client)/./public/empty-star.png",
@@ -182,7 +156,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/restaurant/not-found:app/restaurant/not-found"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -190,7 +164,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/restaurant/not-found:app/restaurant/not-found"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -198,7 +172,59 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/restaurant/not-found:app/restaurant/not-found"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/LoginModal.tsx": {
+      "": {
+        "id": "(sc_client)/./app/components/LoginModal.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/components/LoginModal.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/LoginModal.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -307,32 +333,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx": {
-      "": {
-        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-        "name": "",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-        "name": "*",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-        "name": "default",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/error.png": {
       "": {
         "id": "(sc_client)/./public/error.png",
@@ -407,6 +407,32 @@
         "name": "default",
         "chunks": [
           "app/restaurant/not-found:app/restaurant/not-found"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx": {
+      "": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "default",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       }
@@ -884,58 +910,6 @@
       "async": false
     }
   },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/next/dist/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/next/dist/esm/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    }
-  },
   "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/public/empty-star.png": {
     "": {
       "id": "(app-client)/./public/empty-star.png",
@@ -1045,7 +1019,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/restaurant/not-found:app/restaurant/not-found"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1053,7 +1027,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/restaurant/not-found:app/restaurant/not-found"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1061,7 +1035,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/restaurant/not-found:app/restaurant/not-found"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     }
@@ -1071,7 +1045,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/restaurant/not-found:app/restaurant/not-found"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1079,7 +1053,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/restaurant/not-found:app/restaurant/not-found"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1087,7 +1061,85 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/restaurant/not-found:app/restaurant/not-found"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/next/dist/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/next/dist/esm/client/link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/components/LoginModal.tsx": {
+    "": {
+      "id": "(app-client)/./app/components/LoginModal.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/components/LoginModal.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/components/LoginModal.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -1300,32 +1352,6 @@
       "async": false
     }
   },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/restaurant/[slug]/components/ReservationCard.tsx": {
-    "": {
-      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-      "name": "",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-      "name": "*",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-      "name": "default",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    }
-  },
   "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/public/error.png": {
     "": {
       "id": "(app-client)/./public/error.png",
@@ -1400,6 +1426,32 @@
       "name": "default",
       "chunks": [
         "app/restaurant/not-found:app/restaurant/not-found"
+      ],
+      "async": false
+    }
+  },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/restaurant/[slug]/components/ReservationCard.tsx": {
+    "": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "default",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     }
