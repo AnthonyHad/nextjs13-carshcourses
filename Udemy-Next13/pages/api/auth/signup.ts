@@ -1,5 +1,8 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import validator from 'validator';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export default async function handler(
   req: NextApiRequest,
@@ -41,8 +44,14 @@ export default async function handler(
       }
     });
 
-    if (errors.length) {
-      return res.status(400).json({ errorMessage: errors[0] });
+    const userWithEmail = await prisma.user.findUnique({
+      where: {
+        email,
+      },
+    });
+
+    if (userWithEmail) {
+      return res.status(400).json({ errorMessage: 'Email already exists' });
     }
 
     res.status(200).json({
