@@ -65,6 +65,10 @@ export default async function handler(
       .setProtectedHeader({ alg })
       .setExpirationTime('24h')
       .sign(secret);
+
+    return res.status(200).json({
+      token,
+    });
   }
   return res.status(404).json('Undefined endpoint');
 }
