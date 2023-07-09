@@ -3,7 +3,6 @@
 import axios from 'axios';
 import { getCookie } from 'cookies-next';
 import { useState, createContext, useEffect } from 'react';
-import useAuth from '../../hooks/useAuth';
 
 interface User {
   id: number;
@@ -37,7 +36,7 @@ export default function AuthContext({
   children: React.ReactNode;
 }) {
   const [authState, setAuthState] = useState<State>({
-    loading: false,
+    loading: true,
     data: null,
     error: null,
   });
