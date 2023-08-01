@@ -52,7 +52,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/empty-star.png",
         "name": "",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -60,7 +60,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/empty-star.png",
         "name": "*",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -68,7 +68,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/empty-star.png",
         "name": "default",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       }
@@ -78,7 +78,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/full-star.png",
         "name": "",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -86,7 +86,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/full-star.png",
         "name": "*",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -94,7 +94,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/full-star.png",
         "name": "default",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       }
@@ -104,7 +104,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/half-star.png",
         "name": "",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -112,7 +112,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/half-star.png",
         "name": "*",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -120,7 +120,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/half-star.png",
         "name": "default",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       }
@@ -130,7 +130,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "",
         "chunks": [
-          "app/loading:app/loading"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -138,7 +138,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "*",
         "chunks": [
-          "app/loading:app/loading"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -146,7 +146,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "default",
         "chunks": [
-          "app/loading:app/loading"
+          "app/search/page:app/search/page"
         ],
         "async": false
       }
@@ -156,7 +156,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -164,7 +164,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       },
@@ -172,7 +172,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/search/page:app/search/page"
         ],
         "async": false
       }
@@ -182,7 +182,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
         ],
         "async": false
       },
@@ -190,7 +190,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
         ],
         "async": false
       },
@@ -198,7 +198,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+          "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
         ],
         "async": false
       }
@@ -367,6 +367,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx": {
+      "": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+        "name": "default",
+        "chunks": [
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/error.png": {
       "": {
         "id": "(sc_client)/./public/error.png",
@@ -444,37 +470,12 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx": {
-      "": {
-        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-        "name": "",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-        "name": "*",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-        "name": "default",
-        "chunks": [
-          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-        ],
-        "async": false
-      }
     }
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/layout": [
+      "static/css/_app-client_node_modules_react-datepicker_dist_react-datepicker_css.css",
       "static/css/_app-client_app_globals_css.css"
     ]
   },
@@ -949,7 +950,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/empty-star.png",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -957,7 +958,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/empty-star.png",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -965,7 +966,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/empty-star.png",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     }
@@ -975,7 +976,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/full-star.png",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -983,7 +984,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/full-star.png",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -991,7 +992,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/full-star.png",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     }
@@ -1001,7 +1002,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/half-star.png",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -1009,7 +1010,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/half-star.png",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -1017,7 +1018,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/half-star.png",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     }
@@ -1027,7 +1028,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "",
       "chunks": [
-        "app/loading:app/loading"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -1035,7 +1036,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "*",
       "chunks": [
-        "app/loading:app/loading"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -1043,7 +1044,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "default",
       "chunks": [
-        "app/loading:app/loading"
+        "app/search/page:app/search/page"
       ],
       "async": false
     }
@@ -1053,7 +1054,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -1061,7 +1062,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -1069,7 +1070,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     }
@@ -1079,7 +1080,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -1087,7 +1088,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     },
@@ -1095,7 +1096,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/search/page:app/search/page"
       ],
       "async": false
     }
@@ -1105,7 +1106,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
       ],
       "async": false
     },
@@ -1113,7 +1114,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
       ],
       "async": false
     },
@@ -1121,7 +1122,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
       ],
       "async": false
     }
@@ -1131,7 +1132,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
       ],
       "async": false
     },
@@ -1139,7 +1140,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
       ],
       "async": false
     },
@@ -1147,7 +1148,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
       ],
       "async": false
     }
@@ -1420,6 +1421,32 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/restaurant/[slug]/components/ReservationCard.tsx": {
+    "": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
+      "name": "default",
+      "chunks": [
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
+      ],
+      "async": false
+    }
+  },
   "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/public/error.png": {
     "": {
       "id": "(app-client)/./public/error.png",
@@ -1498,38 +1525,21 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/restaurant/[slug]/components/ReservationCard.tsx": {
-    "": {
-      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-      "name": "",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-      "name": "*",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/restaurant/[slug]/components/ReservationCard.tsx",
-      "name": "default",
-      "chunks": [
-        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
-      ],
-      "async": false
-    }
-  },
   "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/app/globals.css": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_globals_css.css"
+      ]
+    }
+  },
+  "/Users/anthonyhadwan/code/AnthonyHad/nextjs13-carshcourses/Udemy-Next13/node_modules/react-datepicker/dist/react-datepicker.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_react-datepicker_dist_react-datepicker_css.css"
       ]
     }
   }
