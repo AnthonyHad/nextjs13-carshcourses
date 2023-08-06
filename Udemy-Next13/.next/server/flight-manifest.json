@@ -52,7 +52,7 @@
         "id": "(sc_client)/./public/empty-star.png",
         "name": "",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -60,7 +60,7 @@
         "id": "(sc_client)/./public/empty-star.png",
         "name": "*",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -68,7 +68,7 @@
         "id": "(sc_client)/./public/empty-star.png",
         "name": "default",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       }
@@ -78,7 +78,7 @@
         "id": "(sc_client)/./public/full-star.png",
         "name": "",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -86,7 +86,7 @@
         "id": "(sc_client)/./public/full-star.png",
         "name": "*",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -94,7 +94,7 @@
         "id": "(sc_client)/./public/full-star.png",
         "name": "default",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       }
@@ -104,7 +104,7 @@
         "id": "(sc_client)/./public/half-star.png",
         "name": "",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -112,7 +112,7 @@
         "id": "(sc_client)/./public/half-star.png",
         "name": "*",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -120,7 +120,7 @@
         "id": "(sc_client)/./public/half-star.png",
         "name": "default",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       }
@@ -130,7 +130,7 @@
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/loading:app/loading"
         ],
         "async": false
       },
@@ -138,7 +138,7 @@
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "*",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/loading:app/loading"
         ],
         "async": false
       },
@@ -146,7 +146,7 @@
         "id": "(sc_client)/./app/components/SearchBar.tsx",
         "name": "default",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/loading:app/loading"
         ],
         "async": false
       }
@@ -156,7 +156,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/not-found:app/restaurant/not-found"
         ],
         "async": false
       },
@@ -164,7 +164,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/not-found:app/restaurant/not-found"
         ],
         "async": false
       },
@@ -172,7 +172,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/search/page:app/search/page"
+          "app/restaurant/not-found:app/restaurant/not-found"
         ],
         "async": false
       }
@@ -182,7 +182,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -190,7 +190,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       },
@@ -198,7 +198,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+          "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
         ],
         "async": false
       }
@@ -950,7 +950,7 @@
       "id": "(app-client)/./public/empty-star.png",
       "name": "",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -958,7 +958,7 @@
       "id": "(app-client)/./public/empty-star.png",
       "name": "*",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -966,7 +966,7 @@
       "id": "(app-client)/./public/empty-star.png",
       "name": "default",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     }
@@ -976,7 +976,7 @@
       "id": "(app-client)/./public/full-star.png",
       "name": "",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -984,7 +984,7 @@
       "id": "(app-client)/./public/full-star.png",
       "name": "*",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -992,7 +992,7 @@
       "id": "(app-client)/./public/full-star.png",
       "name": "default",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     }
@@ -1002,7 +1002,7 @@
       "id": "(app-client)/./public/half-star.png",
       "name": "",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1010,7 +1010,7 @@
       "id": "(app-client)/./public/half-star.png",
       "name": "*",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1018,7 +1018,7 @@
       "id": "(app-client)/./public/half-star.png",
       "name": "default",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     }
@@ -1028,7 +1028,7 @@
       "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/loading:app/loading"
       ],
       "async": false
     },
@@ -1036,7 +1036,7 @@
       "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "*",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/loading:app/loading"
       ],
       "async": false
     },
@@ -1044,7 +1044,7 @@
       "id": "(app-client)/./app/components/SearchBar.tsx",
       "name": "default",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/loading:app/loading"
       ],
       "async": false
     }
@@ -1054,7 +1054,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/not-found:app/restaurant/not-found"
       ],
       "async": false
     },
@@ -1062,7 +1062,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/not-found:app/restaurant/not-found"
       ],
       "async": false
     },
@@ -1070,7 +1070,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/not-found:app/restaurant/not-found"
       ],
       "async": false
     }
@@ -1080,7 +1080,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/not-found:app/restaurant/not-found"
       ],
       "async": false
     },
@@ -1088,7 +1088,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/not-found:app/restaurant/not-found"
       ],
       "async": false
     },
@@ -1096,7 +1096,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/search/page:app/search/page"
+        "app/restaurant/not-found:app/restaurant/not-found"
       ],
       "async": false
     }
@@ -1106,7 +1106,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1114,7 +1114,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1122,7 +1122,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     }
@@ -1132,7 +1132,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1140,7 +1140,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     },
@@ -1148,7 +1148,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/restaurant/[slug]/menu/page:app/restaurant/[slug]/menu/page"
+        "app/restaurant/[slug]/page:app/restaurant/[slug]/page"
       ],
       "async": false
     }
