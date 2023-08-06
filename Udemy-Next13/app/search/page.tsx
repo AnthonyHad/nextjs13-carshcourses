@@ -1,4 +1,4 @@
-import { PrismaClient, Cuisine, Location, PRICE } from '@prisma/client';
+import { PrismaClient, PRICE } from '@prisma/client';
 import Header from './components/Header';
 import RestaurantCard from './components/RestaurantCard';
 import SearchSideBar from './components/SearchSideBar';

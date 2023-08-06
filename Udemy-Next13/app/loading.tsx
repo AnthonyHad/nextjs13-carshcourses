@@ -9,7 +9,7 @@ const Loading = () => {
           return (
             <div
               key={num}
-              className="animate-pulse b-slate-200 w-64 h-72 m-3 rounded overflow-hidden border curosr-pointer"
+              className="animate-pulse b-slate-200 w-64 h-72 m-3 rounded overflow-hidden border cursor-pointer"
             ></div>
           );
         })}
