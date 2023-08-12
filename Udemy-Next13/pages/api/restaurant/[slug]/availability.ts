@@ -1,6 +1,7 @@
 import { PrismaClient } from '@prisma/client';
 import { NextApiRequest, NextApiResponse } from 'next';
 import { findAvailableTables } from '../../../../services/restaurant/findAvailableTables';
+import { times } from '../../../../data';
 
 const prisma = new PrismaClient();
 
@@ -60,7 +61,7 @@ export default async function handler(
 
         return {
           time: t.time,
-          availabilities: sumSeats >= parseInt(partySize),
+          available: sumSeats >= parseInt(partySize),
         };
       })
       .filter((availability) => {
